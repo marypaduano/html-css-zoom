@@ -72,9 +72,10 @@ section{
 
 .nav-footer{
     height: 50px;
-    background-color: grey;
+    background-color: rgb(30, 30, 30);
     color: white;  
     margin-top: 20px; 
+    position: relative;
 }
 
 .user{
@@ -85,3 +86,42 @@ section{
     background-color: rgba(32, 46, 60, 0.467);
     font-size: 13px;
 }
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.col-nav{
+    position: absolute;
+    left: 0px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.button-end{
+    background-color: rgba(150, 149, 149, 0.819);
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    right: 0px;
+    height: 50px;
+    width: 100px;
+    border-color: none;
+
+}
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.green{
+    color: green;
+}
+ul, li{
+    padding: 0 10px;
+}
+
+
+
