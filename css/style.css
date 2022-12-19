@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    position: relative;    
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+    display: flex;
+}
+
+
+.row {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+section{
+    width: 1040px;
+    
+}
+
+.main-header{
+    height: 50px;
+}
+.col{
+    flex-basis: calc(100% / 7);
+    border: 1px solid green;
+    padding: 50px;
+}
+
+.nav-footer{
+    height: 50px;
+    background-color: grey;
+    color: white;
+    margin-top: 20px;   
+}
