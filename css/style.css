@@ -40,6 +40,30 @@ section{
 .main-header{
     height: 50px;
 }
+
+.view-select{
+    background-color: rgba(128, 128, 128, 0.592);
+    color: white;
+    position: absolute;
+    right: 28px;
+    top: 3px;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.arrow {
+    background-color: rgba(128, 128, 128, 0.592);
+    color: white;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+
+
 .col{
     flex-basis: calc(100% / 7);
     padding: 3px 1px;
