@@ -6,7 +6,7 @@
 
 img {
     max-width: 100%;
-    position: relative;    
+    position: relative;   
 }
 
 ul,
@@ -20,6 +20,10 @@ menu {
 .row {
 	display: flex;
     flex-wrap: wrap;
+    margin: 0 -10px;
+    padding: 0 10px;
+    position: relative;
+  
 }
 
 body{
@@ -28,6 +32,8 @@ body{
 
 section{
     width: 1040px;
+	background-size: cover;
+
     
 }
 
@@ -36,13 +42,22 @@ section{
 }
 .col{
     flex-basis: calc(100% / 7);
-    border: 1px solid green;
-    padding: 50px;
+    padding: 3px 1px;
+    position: relative;
 }
 
 .nav-footer{
     height: 50px;
     background-color: grey;
+    color: white;  
+    margin-top: 20px; 
+}
+
+.user{
     color: white;
-    margin-top: 20px;   
+    position: absolute;
+    bottom: 8px;
+    left: 2px;
+    background-color: rgba(32, 46, 60, 0.467);
+    font-size: 13px;
 }
